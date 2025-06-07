@@ -11,7 +11,7 @@ function getUserById(userId) {
 
 function getCommentByPostId(userId) {
   return (
-    commentsFromServer.filter(comment => comment.postId === userId) || null
+    commentsFromServer.filter(comment => comment.postId === userId)
   );
 }
 
